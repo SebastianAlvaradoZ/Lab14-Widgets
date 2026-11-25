@@ -36,6 +36,13 @@ android {
 }
 
 dependencies {
+    // Glance - soporte para AppWidgets
+    implementation("androidx.glance:glance-appwidget:1.1.0")
+    // Glance - interoperabilidad con Material 3
+    implementation("androidx.glance:glance-material3:1.1.0")
+    // Glance - interoperabilidad con Material 2
+    implementation("androidx.glance:glance-material:1.1.0")
+
     implementation(platform(libs.androidx.compose.bom))
     implementation(libs.androidx.activity.compose)
     implementation(libs.androidx.compose.material3)
